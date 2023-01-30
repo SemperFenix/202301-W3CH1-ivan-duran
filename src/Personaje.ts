@@ -6,4 +6,8 @@ export class Character {
     this.age = age;
     this.alive = true;
   }
+
+  talk(phrase: string) {
+    return phrase;
+  }
 }
