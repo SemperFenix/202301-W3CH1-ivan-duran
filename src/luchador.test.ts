@@ -17,10 +17,10 @@ describe('Given the class Fighter', () => {
   });
 
   describe('When a King item uses its method talk', () => {
-    test('Then it should return "Vais a morir todos"', () => {
-      const robert = new King('Robert', 'Baratheon', 50, 12);
-      const r = robert.talk();
-      expect(r).toBe('Vais a morir todos');
+    test('Then it should return "Primero pego y luego pregunto"', () => {
+      const jaime = new Fighter('Jaime', 'Lannister', 30, 'Sword', 8);
+      const r = jaime.talk();
+      expect(r).toBe('Primero pego y luego pregunto');
     });
   });
 });
