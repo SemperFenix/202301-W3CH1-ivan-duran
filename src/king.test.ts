@@ -7,8 +7,9 @@ describe('Given the class King', () => {
       const result = {
         name: 'Robert',
         family: 'Baratheon',
+        isAlive: true,
+
         age: 50,
-        alive: true,
         kingYears: 12,
       };
       expect(r).toEqual(result);

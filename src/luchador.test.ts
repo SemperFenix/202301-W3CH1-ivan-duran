@@ -7,8 +7,9 @@ describe('Given the class Fighter', () => {
       const result = {
         name: 'Jaime',
         family: 'Lannister',
+        isAlive: true,
+
         age: 30,
-        alive: true,
         weapon: 'Sword',
         dexterity: 8,
       };
