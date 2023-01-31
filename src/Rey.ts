@@ -5,10 +5,10 @@ export class King extends Character {
     public name: string,
     public family: string,
     public age: number,
+    // eslint-disable-next-line no-unused-vars
     public kingYears: number
   ) {
     super(name, family, age);
-    this.kingYears = kingYears;
   }
 
   talk() {

@@ -2,15 +2,15 @@ import { Character } from './Personaje';
 
 export class Fighter extends Character {
   constructor(
-    public name: string,
-    public family: string,
-    public age: number,
+    name: string,
+    family: string,
+    age: number,
+    // eslint-disable-next-line no-unused-vars
     public weapon: string,
+    // eslint-disable-next-line no-unused-vars
     public dexterity: number
   ) {
     super(name, family, age);
-    this.weapon = weapon;
-    this.dexterity = dexterity;
   }
 
   talk() {
