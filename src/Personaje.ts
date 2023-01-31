@@ -1,10 +1,9 @@
 export class Character {
-  alive: boolean;
+  public isAlive: boolean = true;
   constructor(public name: string, public family: string, public age: number) {
     this.name = name;
     this.family = family;
     this.age = age;
-    this.alive = true;
   }
 
   talk(phrase: string) {
